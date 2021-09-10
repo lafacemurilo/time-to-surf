@@ -14,7 +14,6 @@ export class SetupServer extends Server {
     this.setupControllers();
   }
   //método responsável por iniciar o setupExpress
-  //é como se fosse o middle. se não for um
   private setupExpress(): void {
     this.app.use(express.json());
   }
